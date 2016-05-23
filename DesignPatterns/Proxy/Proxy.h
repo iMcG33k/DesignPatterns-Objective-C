@@ -1,6 +1,7 @@
 //
 //  Proxy.h
 //  DesignPatterns
+//  代理模式
 //
 //  Created by leichunfeng on 14/12/19.
 //  Copyright (c) 2014年 zdnst. All rights reserved.

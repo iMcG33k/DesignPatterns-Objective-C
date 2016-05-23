@@ -1,6 +1,7 @@
 //
 //  Operation.h
 //  DesignPatterns
+//  简单工厂模式
 //
 //  Created by leichunfeng on 15/11/15.
 //  Copyright © 2015年 zdnst. All rights reserved.

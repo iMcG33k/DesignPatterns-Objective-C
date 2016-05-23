@@ -1,6 +1,7 @@
 //
 //  IFactory.h
 //  DesignPatterns
+//  抽象工厂设计模式
 //
 //  Created by leichunfeng on 14-10-19.
 //  Copyright (c) 2014年 zdnst. All rights reserved.

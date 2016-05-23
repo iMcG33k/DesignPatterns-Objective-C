@@ -1,6 +1,7 @@
 //
 //  NationalDebt1.h
 //  DesignPatterns
+//  外观模式
 //
 //  Created by leichunfeng on 14/12/18.
 //  Copyright (c) 2014年 zdnst. All rights reserved.

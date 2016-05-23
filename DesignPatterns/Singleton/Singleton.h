@@ -1,6 +1,7 @@
 //
 //  Singleton.h
 //  DesignPatterns
+//  单例模式
 //
 //  Created by leichunfeng on 14/11/4.
 //  Copyright (c) 2014年 zdnst. All rights reserved.
