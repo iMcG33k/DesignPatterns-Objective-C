@@ -2,6 +2,8 @@
 //  Operation.h
 //  DesignPatterns
 //  简单工厂模式
+//  根据类型生成指定的对象。UIButton，UIActivityIndicatorView
+//  使用继承就可以实现
 //
 //  Created by leichunfeng on 15/11/15.
 //  Copyright © 2015年 zdnst. All rights reserved.
