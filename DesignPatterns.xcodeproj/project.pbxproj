@@ -86,6 +86,7 @@
 		24D9588419FE99B800C3F23E /* StateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588319FE99B800C3F23E /* StateTests.m */; };
 		397E0E0A1CF5D5D100A94A05 /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E091CF5D5D100A94A05 /* DataAccess.m */; };
 		397E0E0C1CF5D9C400A94A05 /* configure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 397E0E0B1CF5D9C400A94A05 /* configure.plist */; };
+		397E0E0F1CF5E46E00A94A05 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E0E1CF5E46E00A94A05 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -247,6 +248,8 @@
 		397E0E081CF5D5D100A94A05 /* DataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccess.h; sourceTree = "<group>"; };
 		397E0E091CF5D5D100A94A05 /* DataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccess.m; sourceTree = "<group>"; };
 		397E0E0B1CF5D9C400A94A05 /* configure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configure.plist; sourceTree = "<group>"; };
+		397E0E0D1CF5E46D00A94A05 /* DesignPatterns-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesignPatterns-Bridging-Header.h"; sourceTree = "<group>"; };
+		397E0E0E1CF5E46E00A94A05 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -455,6 +458,8 @@
 			children = (
 				245CB42A1BF8A28C0006D277 /* Singleton.h */,
 				245CB42B1BF8A28C0006D277 /* Singleton.m */,
+				397E0E0E1CF5E46E00A94A05 /* Singleton.swift */,
+				397E0E0D1CF5E46D00A94A05 /* DesignPatterns-Bridging-Header.h */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -720,6 +725,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = "";
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = leichunfeng;
 				TargetAttributes = {
@@ -809,6 +815,7 @@
 				245CB47B1BF8A28C0006D277 /* Work.m in Sources */,
 				245CB4701BF8A28C0006D277 /* OperationDiv.m in Sources */,
 				245CB4721BF8A28C0006D277 /* OperationMul.m in Sources */,
+				397E0E0F1CF5E46E00A94A05 /* Singleton.swift in Sources */,
 				245CB4731BF8A28C0006D277 /* OperationSub.m in Sources */,
 				2467F51819F37ED800437073 /* main.m in Sources */,
 				245CB44D1BF8A28C0006D277 /* AccessDepartment.m in Sources */,
@@ -957,11 +964,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatterns/DesignPatterns-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zdnst.DesignPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DesignPatterns/Singleton/DesignPatterns-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -971,11 +982,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DesignPatterns/DesignPatterns-Prefix.pch";
 				INFOPLIST_FILE = "DesignPatterns/DesignPatterns-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zdnst.DesignPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DesignPatterns/Singleton/DesignPatterns-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
