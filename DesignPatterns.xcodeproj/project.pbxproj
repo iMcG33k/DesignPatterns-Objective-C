@@ -84,6 +84,8 @@
 		24B2B0841A067DB1001D74E0 /* BuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B2B0831A067DB1001D74E0 /* BuilderTests.m */; };
 		24BD698A1A4477170007D525 /* PrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69891A4477170007D525 /* PrototypeTests.m */; };
 		24D9588419FE99B800C3F23E /* StateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588319FE99B800C3F23E /* StateTests.m */; };
+		397E0E0A1CF5D5D100A94A05 /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E091CF5D5D100A94A05 /* DataAccess.m */; };
+		397E0E0C1CF5D9C400A94A05 /* configure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 397E0E0B1CF5D9C400A94A05 /* configure.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,6 +244,9 @@
 		24B2B0831A067DB1001D74E0 /* BuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderTests.m; sourceTree = "<group>"; };
 		24BD69891A4477170007D525 /* PrototypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeTests.m; sourceTree = "<group>"; };
 		24D9588319FE99B800C3F23E /* StateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTests.m; sourceTree = "<group>"; };
+		397E0E081CF5D5D100A94A05 /* DataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccess.h; sourceTree = "<group>"; };
+		397E0E091CF5D5D100A94A05 /* DataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccess.m; sourceTree = "<group>"; };
+		397E0E0B1CF5D9C400A94A05 /* configure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configure.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +316,9 @@
 				245CB3DC1BF8A28C0006D277 /* SQLServerFactory.m */,
 				245CB3CD1BF8A28C0006D277 /* AccessFactory.h */,
 				245CB3CE1BF8A28C0006D277 /* AccessFactory.m */,
+				397E0E081CF5D5D100A94A05 /* DataAccess.h */,
+				397E0E091CF5D5D100A94A05 /* DataAccess.m */,
+				397E0E0B1CF5D9C400A94A05 /* configure.plist */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -745,6 +753,7 @@
 			files = (
 				2467F51619F37ED800437073 /* InfoPlist.strings in Resources */,
 				2467F51E19F37ED800437073 /* Images.xcassets in Resources */,
+				397E0E0C1CF5D9C400A94A05 /* configure.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,6 +802,7 @@
 				245CB4621BF8A28C0006D277 /* Stock3.m in Sources */,
 				245CB4771BF8A28C0006D277 /* ForenoonState.m in Sources */,
 				245CB4541BF8A28C0006D277 /* SQLServerUser.m in Sources */,
+				397E0E0A1CF5D5D100A94A05 /* DataAccess.m in Sources */,
 				245CB4651BF8A28C0006D277 /* Volunteer.m in Sources */,
 				245CB4781BF8A28C0006D277 /* NoonState.m in Sources */,
 				245CB4591BF8A28C0006D277 /* HandsetGame.m in Sources */,
