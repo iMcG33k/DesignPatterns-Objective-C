@@ -88,6 +88,7 @@
 		397E0E0C1CF5D9C400A94A05 /* configure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 397E0E0B1CF5D9C400A94A05 /* configure.plist */; };
 		397E0E0F1CF5E46E00A94A05 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E0E1CF5E46E00A94A05 /* Singleton.swift */; };
 		3998DEE51CF7341F00602E27 /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998DEE41CF7341F00602E27 /* SRP.swift */; };
+		3998DEE81CF73A3D00602E27 /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998DEE71CF73A3D00602E27 /* OCP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,6 +253,7 @@
 		397E0E0D1CF5E46D00A94A05 /* DesignPatterns-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesignPatterns-Bridging-Header.h"; sourceTree = "<group>"; };
 		397E0E0E1CF5E46E00A94A05 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		3998DEE41CF7341F00602E27 /* SRP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRP.swift; path = SRP/SRP.swift; sourceTree = "<group>"; };
+		3998DEE71CF73A3D00602E27 /* OCP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -550,6 +552,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				3998DEE61CF73A3400602E27 /* OCP */,
 				3998DEE31CF733B500602E27 /* SRP */,
 				245CB3CA1BF8A28C0006D277 /* AbstractFactory */,
 				245CB3DF1BF8A28C0006D277 /* Bridge */,
@@ -689,6 +692,14 @@
 				3998DEE41CF7341F00602E27 /* SRP.swift */,
 			);
 			name = SRP;
+			sourceTree = "<group>";
+		};
+		3998DEE61CF73A3400602E27 /* OCP */ = {
+			isa = PBXGroup;
+			children = (
+				3998DEE71CF73A3D00602E27 /* OCP.swift */,
+			);
+			path = OCP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -843,6 +854,7 @@
 				245CB45F1BF8A28C0006D277 /* Realty1.m in Sources */,
 				245CB45A1BF8A28C0006D277 /* PersonDirector.m in Sources */,
 				245CB4741BF8A28C0006D277 /* Singleton.m in Sources */,
+				3998DEE81CF73A3D00602E27 /* OCP.swift in Sources */,
 				245CB45D1BF8A28C0006D277 /* Fund.m in Sources */,
 				245CB47F1BF8A28C0006D277 /* CashReturn.m in Sources */,
 				245CB4751BF8A28C0006D277 /* AfternoonState.m in Sources */,
