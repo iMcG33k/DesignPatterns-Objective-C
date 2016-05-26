@@ -87,6 +87,7 @@
 		397E0E0A1CF5D5D100A94A05 /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E091CF5D5D100A94A05 /* DataAccess.m */; };
 		397E0E0C1CF5D9C400A94A05 /* configure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 397E0E0B1CF5D9C400A94A05 /* configure.plist */; };
 		397E0E0F1CF5E46E00A94A05 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E0E1CF5E46E00A94A05 /* Singleton.swift */; };
+		3998DEE51CF7341F00602E27 /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998DEE41CF7341F00602E27 /* SRP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -250,6 +251,7 @@
 		397E0E0B1CF5D9C400A94A05 /* configure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configure.plist; sourceTree = "<group>"; };
 		397E0E0D1CF5E46D00A94A05 /* DesignPatterns-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DesignPatterns-Bridging-Header.h"; sourceTree = "<group>"; };
 		397E0E0E1CF5E46E00A94A05 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		3998DEE41CF7341F00602E27 /* SRP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRP.swift; path = SRP/SRP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -548,6 +550,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				3998DEE31CF733B500602E27 /* SRP */,
 				245CB3CA1BF8A28C0006D277 /* AbstractFactory */,
 				245CB3DF1BF8A28C0006D277 /* Bridge */,
 				245CB3EB1BF8A28C0006D277 /* Builder */,
@@ -680,6 +683,14 @@
 			path = State;
 			sourceTree = "<group>";
 		};
+		3998DEE31CF733B500602E27 /* SRP */ = {
+			isa = PBXGroup;
+			children = (
+				3998DEE41CF7341F00602E27 /* SRP.swift */,
+			);
+			name = SRP;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -779,6 +790,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				245CB4551BF8A28C0006D277 /* HandsetAddressList.m in Sources */,
+				3998DEE51CF7341F00602E27 /* SRP.swift in Sources */,
 				245CB4681BF8A28C0006D277 /* ResumeDeepCopy.m in Sources */,
 				245CB4801BF8A28C0006D277 /* TestPaper.m in Sources */,
 				245CB47A1BF8A28C0006D277 /* SleepingState.m in Sources */,
