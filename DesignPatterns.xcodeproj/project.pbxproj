@@ -85,6 +85,7 @@
 		24BD698A1A4477170007D525 /* PrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD69891A4477170007D525 /* PrototypeTests.m */; };
 		24D9588419FE99B800C3F23E /* StateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588319FE99B800C3F23E /* StateTests.m */; };
 		3929E3661CF92D6400FEF2CD /* DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929E3651CF92D6400FEF2CD /* DIP.swift */; };
+		3929E3691CF9416600FEF2CD /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929E3681CF9416600FEF2CD /* Decorator.swift */; };
 		397E0E0A1CF5D5D100A94A05 /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E091CF5D5D100A94A05 /* DataAccess.m */; };
 		397E0E0C1CF5D9C400A94A05 /* configure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 397E0E0B1CF5D9C400A94A05 /* configure.plist */; };
 		397E0E0F1CF5E46E00A94A05 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E0E1CF5E46E00A94A05 /* Singleton.swift */; };
@@ -249,6 +250,7 @@
 		24BD69891A4477170007D525 /* PrototypeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeTests.m; sourceTree = "<group>"; };
 		24D9588319FE99B800C3F23E /* StateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTests.m; sourceTree = "<group>"; };
 		3929E3651CF92D6400FEF2CD /* DIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIP.swift; sourceTree = "<group>"; };
+		3929E3681CF9416600FEF2CD /* Decorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		397E0E081CF5D5D100A94A05 /* DataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccess.h; sourceTree = "<group>"; };
 		397E0E091CF5D5D100A94A05 /* DataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccess.m; sourceTree = "<group>"; };
 		397E0E0B1CF5D9C400A94A05 /* configure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configure.plist; sourceTree = "<group>"; };
@@ -554,6 +556,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				3929E3671CF9415100FEF2CD /* Decorator */,
 				3929E3641CF92D5C00FEF2CD /* DIP */,
 				3998DEE61CF73A3400602E27 /* OCP */,
 				3998DEE31CF733B500602E27 /* SRP */,
@@ -697,6 +700,14 @@
 			path = DIP;
 			sourceTree = "<group>";
 		};
+		3929E3671CF9415100FEF2CD /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				3929E3681CF9416600FEF2CD /* Decorator.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
 		3998DEE31CF733B500602E27 /* SRP */ = {
 			isa = PBXGroup;
 			children = (
@@ -828,6 +839,7 @@
 				245CB47C1BF8A28C0006D277 /* CashContext.m in Sources */,
 				245CB4661BF8A28C0006D277 /* VolunteerFactory.m in Sources */,
 				245CB47D1BF8A28C0006D277 /* CashNormal.m in Sources */,
+				3929E3691CF9416600FEF2CD /* Decorator.swift in Sources */,
 				245CB4691BF8A28C0006D277 /* ResumeShallowCopy.m in Sources */,
 				245CB4581BF8A28C0006D277 /* HandsetBrandN.m in Sources */,
 				245CB4821BF8A28C0006D277 /* TestPaperB.m in Sources */,
