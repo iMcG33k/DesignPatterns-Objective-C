@@ -6,6 +6,7 @@
 //  Created by leichunfeng on 14/12/19.
 //  Copyright (c) 2014年 zdnst. All rights reserved.
 //
+//  原型模式就是拷贝模式，分为浅拷贝和深拷贝
 
 #import <Foundation/Foundation.h>
 #import "WorkExperience.h"
