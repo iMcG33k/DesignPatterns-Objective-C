@@ -87,6 +87,7 @@
 		3929E3661CF92D6400FEF2CD /* DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929E3651CF92D6400FEF2CD /* DIP.swift */; };
 		3929E3691CF9416600FEF2CD /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929E3681CF9416600FEF2CD /* Decorator.swift */; };
 		3963AF581CFC8EE90036D313 /* LoD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963AF571CFC8EE90036D313 /* LoD.swift */; };
+		3963AF5E1D005FDF0036D313 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963AF5D1D005FDF0036D313 /* Observer.swift */; };
 		397E0E0A1CF5D5D100A94A05 /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E091CF5D5D100A94A05 /* DataAccess.m */; };
 		397E0E0C1CF5D9C400A94A05 /* configure.plist in Resources */ = {isa = PBXBuildFile; fileRef = 397E0E0B1CF5D9C400A94A05 /* configure.plist */; };
 		397E0E0F1CF5E46E00A94A05 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E0E1CF5E46E00A94A05 /* Singleton.swift */; };
@@ -253,6 +254,7 @@
 		3929E3651CF92D6400FEF2CD /* DIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIP.swift; sourceTree = "<group>"; };
 		3929E3681CF9416600FEF2CD /* Decorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		3963AF571CFC8EE90036D313 /* LoD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoD.swift; sourceTree = "<group>"; };
+		3963AF5D1D005FDF0036D313 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		397E0E081CF5D5D100A94A05 /* DataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccess.h; sourceTree = "<group>"; };
 		397E0E091CF5D5D100A94A05 /* DataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccess.m; sourceTree = "<group>"; };
 		397E0E0B1CF5D9C400A94A05 /* configure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configure.plist; sourceTree = "<group>"; };
@@ -558,6 +560,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				3963AF5C1D005FD30036D313 /* Observer */,
 				3963AF561CFC8EDF0036D313 /* LoD */,
 				3929E3671CF9415100FEF2CD /* Decorator */,
 				3929E3641CF92D5C00FEF2CD /* DIP */,
@@ -717,6 +720,14 @@
 				3963AF571CFC8EE90036D313 /* LoD.swift */,
 			);
 			path = LoD;
+			sourceTree = "<group>";
+		};
+		3963AF5C1D005FD30036D313 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				3963AF5D1D005FDF0036D313 /* Observer.swift */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 		3998DEE31CF733B500602E27 /* SRP */ = {
@@ -882,6 +893,7 @@
 				245CB46C1BF8A28C0006D277 /* Pursuit.m in Sources */,
 				245CB45B1BF8A28C0006D277 /* PersonFatBuilder.m in Sources */,
 				245CB4601BF8A28C0006D277 /* Stock1.m in Sources */,
+				3963AF5E1D005FDF0036D313 /* Observer.swift in Sources */,
 				245CB4531BF8A28C0006D277 /* SQLServerFactory.m in Sources */,
 				245CB44F1BF8A28C0006D277 /* AccessUser.m in Sources */,
 				245CB4711BF8A28C0006D277 /* OperationFactory.m in Sources */,
