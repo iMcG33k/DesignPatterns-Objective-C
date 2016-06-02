@@ -20,7 +20,9 @@
 }
 
 - (void)writeProgram {
-    [self.state writeProgram:self];
+    if (self.state) {
+        [self.state writeProgram:self];
+    }
 }
 
 @end
