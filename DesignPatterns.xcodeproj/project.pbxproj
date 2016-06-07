@@ -93,6 +93,8 @@
 		397E0E0F1CF5E46E00A94A05 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E0E1CF5E46E00A94A05 /* Singleton.swift */; };
 		3998DEE51CF7341F00602E27 /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998DEE41CF7341F00602E27 /* SRP.swift */; };
 		3998DEE81CF73A3D00602E27 /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3998DEE71CF73A3D00602E27 /* OCP.swift */; };
+		39A88F201D06F420004E4A24 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A88F1F1D06F420004E4A24 /* Adapter.swift */; };
+		39A88F231D06FC8A004E4A24 /* Memonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A88F221D06FC8A004E4A24 /* Memonto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +264,8 @@
 		397E0E0E1CF5E46E00A94A05 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		3998DEE41CF7341F00602E27 /* SRP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRP.swift; path = SRP/SRP.swift; sourceTree = "<group>"; };
 		3998DEE71CF73A3D00602E27 /* OCP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCP.swift; sourceTree = "<group>"; };
+		39A88F1F1D06F420004E4A24 /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		39A88F221D06FC8A004E4A24 /* Memonto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memonto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -560,6 +564,8 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				39A88F211D06FC81004E4A24 /* Memonto */,
+				39A88F1E1D06F418004E4A24 /* Adapter */,
 				3963AF5C1D005FD30036D313 /* Observer */,
 				3963AF561CFC8EDF0036D313 /* LoD */,
 				3929E3671CF9415100FEF2CD /* Decorator */,
@@ -746,6 +752,22 @@
 			path = OCP;
 			sourceTree = "<group>";
 		};
+		39A88F1E1D06F418004E4A24 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				39A88F1F1D06F420004E4A24 /* Adapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		39A88F211D06FC81004E4A24 /* Memonto */ = {
+			isa = PBXGroup;
+			children = (
+				39A88F221D06FC8A004E4A24 /* Memonto.swift */,
+			);
+			path = Memonto;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -857,6 +879,8 @@
 				245CB4611BF8A28C0006D277 /* Stock2.m in Sources */,
 				245CB4791BF8A28C0006D277 /* RestState.m in Sources */,
 				245CB4631BF8A28C0006D277 /* Undergraduate.m in Sources */,
+				39A88F231D06FC8A004E4A24 /* Memonto.swift in Sources */,
+				39A88F201D06F420004E4A24 /* Adapter.swift in Sources */,
 				245CB46B1BF8A28C0006D277 /* Proxy.m in Sources */,
 				245CB47C1BF8A28C0006D277 /* CashContext.m in Sources */,
 				245CB4661BF8A28C0006D277 /* VolunteerFactory.m in Sources */,
