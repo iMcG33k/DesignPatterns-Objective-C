@@ -86,6 +86,7 @@
 		24D9588419FE99B800C3F23E /* StateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D9588319FE99B800C3F23E /* StateTests.m */; };
 		3929E3661CF92D6400FEF2CD /* DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929E3651CF92D6400FEF2CD /* DIP.swift */; };
 		3929E3691CF9416600FEF2CD /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929E3681CF9416600FEF2CD /* Decorator.swift */; };
+		393D7C771D1820EB00C2302A /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D7C761D1820EB00C2302A /* Command.swift */; };
 		3963AF581CFC8EE90036D313 /* LoD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963AF571CFC8EE90036D313 /* LoD.swift */; };
 		3963AF5E1D005FDF0036D313 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963AF5D1D005FDF0036D313 /* Observer.swift */; };
 		397E0E0A1CF5D5D100A94A05 /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 397E0E091CF5D5D100A94A05 /* DataAccess.m */; };
@@ -256,6 +257,9 @@
 		24D9588319FE99B800C3F23E /* StateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTests.m; sourceTree = "<group>"; };
 		3929E3651CF92D6400FEF2CD /* DIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIP.swift; sourceTree = "<group>"; };
 		3929E3681CF9416600FEF2CD /* Decorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		393D7C761D1820EB00C2302A /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		393D7C791D18297B00C2302A /* Chain of Responsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chain of Responsibility.playground"; sourceTree = "<group>"; };
+		393D7C7F1D1834DA00C2302A /* Mediator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Mediator.playground; sourceTree = "<group>"; };
 		3963AF571CFC8EE90036D313 /* LoD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoD.swift; sourceTree = "<group>"; };
 		3963AF5D1D005FDF0036D313 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		397E0E081CF5D5D100A94A05 /* DataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccess.h; sourceTree = "<group>"; };
@@ -566,6 +570,9 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				393D7C7C1D1830BA00C2302A /* Mediator */,
+				393D7C781D18296700C2302A /* Chain of Responsibility */,
+				393D7C751D1820CC00C2302A /* Command */,
 				39A88F241D078EE9004E4A24 /* Composite */,
 				39A88F211D06FC81004E4A24 /* Memonto */,
 				39A88F1E1D06F418004E4A24 /* Adapter */,
@@ -721,6 +728,30 @@
 				3929E3681CF9416600FEF2CD /* Decorator.swift */,
 			);
 			path = Decorator;
+			sourceTree = "<group>";
+		};
+		393D7C751D1820CC00C2302A /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				393D7C761D1820EB00C2302A /* Command.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		393D7C781D18296700C2302A /* Chain of Responsibility */ = {
+			isa = PBXGroup;
+			children = (
+				393D7C791D18297B00C2302A /* Chain of Responsibility.playground */,
+			);
+			path = "Chain of Responsibility";
+			sourceTree = "<group>";
+		};
+		393D7C7C1D1830BA00C2302A /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				393D7C7F1D1834DA00C2302A /* Mediator.playground */,
+			);
+			path = Mediator;
 			sourceTree = "<group>";
 		};
 		3963AF561CFC8EDF0036D313 /* LoD */ = {
@@ -928,6 +959,7 @@
 				245CB46A1BF8A28C0006D277 /* WorkExperience.m in Sources */,
 				245CB46C1BF8A28C0006D277 /* Pursuit.m in Sources */,
 				245CB45B1BF8A28C0006D277 /* PersonFatBuilder.m in Sources */,
+				393D7C771D1820EB00C2302A /* Command.swift in Sources */,
 				245CB4601BF8A28C0006D277 /* Stock1.m in Sources */,
 				3963AF5E1D005FDF0036D313 /* Observer.swift in Sources */,
 				245CB4531BF8A28C0006D277 /* SQLServerFactory.m in Sources */,
