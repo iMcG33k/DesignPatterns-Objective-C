@@ -272,6 +272,7 @@
 		39A88F1F1D06F420004E4A24 /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		39A88F221D06FC8A004E4A24 /* Memonto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memonto.swift; sourceTree = "<group>"; };
 		39A88F251D078EF1004E4A24 /* Composite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		39CEE8D01D1B557F00CC784C /* Interpreter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Interpreter.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -570,6 +571,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				39CEE8CF1D1B556D00CC784C /* Interpreter */,
 				393D7C7C1D1830BA00C2302A /* Mediator */,
 				393D7C781D18296700C2302A /* Chain of Responsibility */,
 				393D7C751D1820CC00C2302A /* Command */,
@@ -808,6 +810,14 @@
 				39A88F251D078EF1004E4A24 /* Composite.swift */,
 			);
 			path = Composite;
+			sourceTree = "<group>";
+		};
+		39CEE8CF1D1B556D00CC784C /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				39CEE8D01D1B557F00CC784C /* Interpreter.playground */,
+			);
+			path = Interpreter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
