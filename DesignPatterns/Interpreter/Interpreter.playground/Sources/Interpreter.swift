@@ -7,13 +7,12 @@ import Foundation
 //  解释器模式也有不足的，解释器模式为文法中的每一条规则至少定义了一个类，因此包含许多规则的文法可能难以管理和维护。建议当文法非常复杂时，使用其他的技术如语法分析程序或编译器生成器来处理。
 
 
-public struct Context {
+public class Context {
     public var input: String
     public var output: String?
     
-    public  static func inputString(input: String) -> Context {
-        let c = Context(input: input, output: nil)
-        return c
+    public init(input: String) {
+        self.input = input
     }
 }
 
@@ -23,19 +22,23 @@ public struct PlayContext {
 
 public protocol AbstractExpression {
     associatedtype T
-    func interpret(context: T)
+    static func interpret(context: T)
 }
 
 public struct TerminalExpression: AbstractExpression {
-    public func interpret(context: Context) {
-        print("终端解析器")
+    static public func interpret(context: Context) {
+        context.output = "Termial Nice to meet you"
+        print("\(context.input)终端解析器--> \(context.output!)")
     }
+    init(){}
 }
 
 public struct NonterminalExpression: AbstractExpression {
-    public func interpret(context: Context) {
-        print("非终端解析器")
+    static public func interpret(context: Context) {
+        context.output = "Nice to meet you"
+        print("\(context.input)非终端解析器--> \(context.output!)")
     }
+    init(){}
 }
 
 

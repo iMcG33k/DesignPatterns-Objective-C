@@ -3,9 +3,9 @@
 import Cocoa
 
 func main() {
-    let c = Context.inputString("Hello")
-    let c: String = "hello"
-    
-    
-    
+    let c = Context(input: "hello")
+    NonterminalExpression.interpret(c)
+    TerminalExpression.interpret(c)
 }
+
+main()

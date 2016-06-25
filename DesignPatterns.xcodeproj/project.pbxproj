@@ -273,6 +273,7 @@
 		39A88F221D06FC8A004E4A24 /* Memonto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memonto.swift; sourceTree = "<group>"; };
 		39A88F251D078EF1004E4A24 /* Composite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		39CEE8D01D1B557F00CC784C /* Interpreter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Interpreter.playground; sourceTree = "<group>"; };
+		39D8B8161D1E35F700A8FBDD /* Vistor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Vistor.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -571,6 +572,7 @@
 		2467F51119F37ED800437073 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				39D8B8151D1E35E700A8FBDD /* Vistor */,
 				39CEE8CF1D1B556D00CC784C /* Interpreter */,
 				393D7C7C1D1830BA00C2302A /* Mediator */,
 				393D7C781D18296700C2302A /* Chain of Responsibility */,
@@ -818,6 +820,14 @@
 				39CEE8D01D1B557F00CC784C /* Interpreter.playground */,
 			);
 			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		39D8B8151D1E35E700A8FBDD /* Vistor */ = {
+			isa = PBXGroup;
+			children = (
+				39D8B8161D1E35F700A8FBDD /* Vistor.playground */,
+			);
+			path = Vistor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
