@@ -97,6 +97,8 @@
 		39A88F201D06F420004E4A24 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A88F1F1D06F420004E4A24 /* Adapter.swift */; };
 		39A88F231D06FC8A004E4A24 /* Memonto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A88F221D06FC8A004E4A24 /* Memonto.swift */; };
 		39A88F261D078EF1004E4A24 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A88F251D078EF1004E4A24 /* Composite.swift */; };
+		9FD0E0CE1D8AF3F500C1486F /* SWOperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0E0CA1D8AF3F500C1486F /* SWOperationAdd.m */; };
+		9FD0E0D11D8AF3F500C1486F /* SWOperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0E0CD1D8AF3F500C1486F /* SWOperationSub.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,6 +276,12 @@
 		39A88F251D078EF1004E4A24 /* Composite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		39CEE8D01D1B557F00CC784C /* Interpreter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Interpreter.playground; sourceTree = "<group>"; };
 		39D8B8161D1E35F700A8FBDD /* Vistor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Vistor.playground; sourceTree = "<group>"; };
+		9F9C62EA1D8AFEA200A4D7DA /* SWOperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWOperationFactory.h; sourceTree = "<group>"; };
+		9FD0E0C51D8AF29900C1486F /* SWOperationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWOperationProtocol.h; sourceTree = "<group>"; };
+		9FD0E0C61D8AF3F500C1486F /* SWOperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWOperationAdd.h; sourceTree = "<group>"; };
+		9FD0E0C91D8AF3F500C1486F /* SWOperationSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWOperationSub.h; sourceTree = "<group>"; };
+		9FD0E0CA1D8AF3F500C1486F /* SWOperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWOperationAdd.m; sourceTree = "<group>"; };
+		9FD0E0CD1D8AF3F500C1486F /* SWOperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWOperationSub.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,11 +424,11 @@
 			isa = PBXGroup;
 			children = (
 				245CB4011BF8A28C0006D277 /* ILeiFeng.h */,
+				245CB4021BF8A28C0006D277 /* ILeiFengFactory.h */,
 				245CB4031BF8A28C0006D277 /* Undergraduate.h */,
 				245CB4041BF8A28C0006D277 /* Undergraduate.m */,
 				245CB4071BF8A28C0006D277 /* Volunteer.h */,
 				245CB4081BF8A28C0006D277 /* Volunteer.m */,
-				245CB4021BF8A28C0006D277 /* ILeiFengFactory.h */,
 				245CB4051BF8A28C0006D277 /* UndergraduateFactory.h */,
 				245CB4061BF8A28C0006D277 /* UndergraduateFactory.m */,
 				245CB4091BF8A28C0006D277 /* VolunteerFactory.h */,
@@ -590,10 +598,11 @@
 				245CB3DF1BF8A28C0006D277 /* Bridge */,
 				245CB3EB1BF8A28C0006D277 /* Builder */,
 				245CB3F31BF8A28C0006D277 /* Facade */,
-				245CB4001BF8A28C0006D277 /* FactoryMethod */,
 				245CB40B1BF8A28C0006D277 /* Prototype */,
 				245CB4141BF8A28C0006D277 /* Proxy */,
 				245CB41C1BF8A28C0006D277 /* SimpleFactory */,
+				9FD0E0C41D8AF21500C1486F /* FactoryMethod(SW) */,
+				245CB4001BF8A28C0006D277 /* FactoryMethod */,
 				245CB4291BF8A28C0006D277 /* Singleton */,
 				245CB42C1BF8A28C0006D277 /* State */,
 				245CB43C1BF8A28C0006D277 /* Strategy */,
@@ -830,6 +839,19 @@
 			path = Vistor;
 			sourceTree = "<group>";
 		};
+		9FD0E0C41D8AF21500C1486F /* FactoryMethod(SW) */ = {
+			isa = PBXGroup;
+			children = (
+				9F9C62EA1D8AFEA200A4D7DA /* SWOperationFactory.h */,
+				9FD0E0C51D8AF29900C1486F /* SWOperationProtocol.h */,
+				9FD0E0C61D8AF3F500C1486F /* SWOperationAdd.h */,
+				9FD0E0CA1D8AF3F500C1486F /* SWOperationAdd.m */,
+				9FD0E0C91D8AF3F500C1486F /* SWOperationSub.h */,
+				9FD0E0CD1D8AF3F500C1486F /* SWOperationSub.m */,
+			);
+			path = "FactoryMethod(SW)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -963,6 +985,7 @@
 				3963AF581CFC8EE90036D313 /* LoD.swift in Sources */,
 				245CB4521BF8A28C0006D277 /* SQLServerDepartment.m in Sources */,
 				245CB4621BF8A28C0006D277 /* Stock3.m in Sources */,
+				9FD0E0CE1D8AF3F500C1486F /* SWOperationAdd.m in Sources */,
 				245CB4771BF8A28C0006D277 /* ForenoonState.m in Sources */,
 				245CB4541BF8A28C0006D277 /* SQLServerUser.m in Sources */,
 				397E0E0A1CF5D5D100A94A05 /* DataAccess.m in Sources */,
@@ -985,6 +1008,7 @@
 				245CB4531BF8A28C0006D277 /* SQLServerFactory.m in Sources */,
 				245CB44F1BF8A28C0006D277 /* AccessUser.m in Sources */,
 				245CB4711BF8A28C0006D277 /* OperationFactory.m in Sources */,
+				9FD0E0D11D8AF3F500C1486F /* SWOperationSub.m in Sources */,
 				245CB46D1BF8A28C0006D277 /* SchoolGirl.m in Sources */,
 				245CB4501BF8A28C0006D277 /* Department.m in Sources */,
 				245CB45F1BF8A28C0006D277 /* Realty1.m in Sources */,
